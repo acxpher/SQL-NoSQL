@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="lightbox/dist/css/lightbox.css">
+</head>
+<body>
+	<h1>Personal Page</h1>
+	<div id="avator"></div>
+
+	<section class="about">
+		<p>Hi, my name is John Don and I am currently a <a href="https://www.uq.edu.au/">UQ</a> student enrolled in INFS3202.</p>
+	</section>
+
+	<section class="contact">
+		<ul>
+			<li>
+				<a href="mailto:John.Don@uq.edu.au">email</a>
+			</li>
+			<li>
+			
+			</li>
+		</ul>
+	</section>
+
+	<section class="education">
+		<h1>Education</h1>
+		<table>
+		  <tr>
+		    <td>Degree</td>
+		    <td>Time</td> 
+		    <td>Location</td>
+		  </tr>
+		  <tr>
+		    <td>Bachelor</td>
+		    <td>2011-2015</td> 
+		    <td>Queensland, Australia</td>
+		  </tr>
+		  <tr>
+		    <td>PhD</td>
+		    <td>2016-2019</td> 
+		    <td>Queensland, Australia</td>
+		  </tr>
+		</table>
+	</section>
+   
+   <h2>My Gallery</h2><br/>
+    <section class="lightbox">
+<a class="photo" href="images/face1.jpg"  data-lightbox="roadtrip"> face 1</a>
+<a class="photo" href="images/face2.jpg"  data-lightbox="roadtrip">face 2</a>
+<a class="photo" href="images/face3.jpg"  data-lightbox="roadtrip">face 3</a>
+<a class="photo" href="images/face4.jpg"  data-lightbox="roadtrip">face 4</a>
+    </section>
+<br/>
+<section class="feedback">
+<form>
+<table border="0">
+<tr>
+  <td>Your Name: </td> <td><input type="text" name="name" value=""></td>
+  </tr><br/><br/>
+  <tr><td>Your E-mail: </td><td><input type="text" name="email" value="@.com"></td></tr>
+  <br/><br/>
+  
+<tr>
+   <td valign="center">Your Comment: </td>
+   <td>
+         <textarea cols="40" rows="10">Text is in here!</textarea>
+   </td>
+</tr>
+</table>
+ <input type="submit" value="Submit">  <input type="Reset" value="Reset">
+</form> 
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+       lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+	  'imageFadeDuration': 200,
+	  'faceDuration' :200,
+	  'fitImagesInViewpoint': true
+         })
+           </script>
+    <script src="js/main.js"></script>
+    <script src="lightbox/dist/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
